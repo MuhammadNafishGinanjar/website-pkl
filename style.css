@@ -1,0 +1,238 @@
+/*-- Navbar Brand --*/
+.navbar-brand {
+  font-family: Viga, sans-serif;
+  font-size: 32px;
+}
+/*-- Akhir Navbar Brand --*/
+
+
+/*-- Bagian Hero --*/
+.container .display-4 {
+  color: #fff;
+  font-family: Viga, sans-serif;
+  margin-top: 130px;
+  font-size: 50px;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+#bgimage {
+  background-image: url(img/meeting4.jpg);
+  background-size: cover;
+  height: 480px;
+  text-align: center;
+}
+
+#bgimage .btn {
+  color: #fff;
+  transition: 0.5s;
+  background-color: #f68c09;
+}
+
+#bgimage .btn:hover {
+  color: #fff;
+  background: #f5a340fd;
+}
+/*-- Akhir Bagian Hero --*/
+
+
+/*-- Judul Pengertian --*/
+.row h2 {
+  font-family: DM Serif Display, serif;
+  font-size: 55px;
+}
+/*-- Akhir Judul Pengertian --*/
+
+
+.container .section-header h2 {
+  font-family: DM Serif Display, serif;
+  font-size: 50px;
+}
+
+
+/*-- Isi Bagian About --*/
+
+
+.features .content + .content {
+  margin-top: 100px;
+}
+.features .content h3 {
+  font-family: DM Serif Display, serif;
+  font-size: 55px;
+}
+
+.features .content ul li {
+  padding-bottom: 10px;
+}
+
+#alumni  img {
+  max-width: 100%;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+/*-- Akhir Isi Bagian About --*/
+
+/*----------------------------------- Code Copas -----------------------------------*/
+
+/*-- Title --*/
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #ffebd2;
+  color: #f68c09;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+/*-- Akhir Title --*/
+
+/*-- Program --*/
+.custom-fonts {
+  font-family: Viga, sans-serif;
+}
+
+/*-- Hover Untuk Bagian Program --*/
+.featured-services {
+  padding-bottom: 5rem;
+}
+
+.featured-services .nomer {
+  font-size: 30px;
+  font-family: Viga, sans-serif;
+}
+
+.featured-services .icon-box {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.featured-services .icon-box:hover{
+  background: #f68c09;
+  top: 0;
+  border-radius: 10px;
+  color: #fff;
+}
+.featured-services .title {
+  font-family: Viga, sans-serif;
+  font-weight: 200;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.featured-services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+/*-- Akhir Hover Untuk Bagian Program --*/
+
+/*-- Program --*/
+
+/*-- Footer Join Us --*/
+.FooterJoinUs {
+  background: url("img/module-18.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  position: relative;
+}
+.FooterJoinUs::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.FooterJoinUs .title {
+  position: relative;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.FooterJoinUs .title h3 {
+  font-family: Viga, sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+}
+/*-- Akhir Footer Join Us --*/
+
+/*----------------------------------- Akhir Code Copas -----------------------------------*/
+
+/*-- Form Join Us --*/
+.bg-form {
+  background: #f68c09 url("img/clip.png") center center no-repeat;
+}
+.form {
+  padding-bottom: 30px;
+}
+
+.form-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 30px;
+}
+
+.form-panel h4 {
+  font-family: Viga, sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.form-panel p {
+  font-family: Viga, sans-serif;
+  font-size: 20px;
+}
+
+.footer {
+  background: #111;
+  color: #fff;
+}
+
+.footerdesc {
+  font-family: Viga, sans-serif;
+  font-size: 32px;
+}
+/*-- Akhir Form Join Us --*/
+
+@media (min-width: 768px) {
+  .jumbotron .display-4 {
+    font-size: 70px;
+    margin-top: 50px;
+  }
+
+  .container img {
+    margin-top: 60px;
+  }
+
+  .features .content h3 {
+    font-size: 40px;
+  }
+
+  .features .content h3 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 425px) {
+  .jumbotron .display-4 {
+    font-size: 53px;
+    margin-top: 90px;
+  }
+
+  .row h2 {
+    font-size: 50px;
+  }
+
+  .features .content h3 {
+    font-size: 40px;
+  }
+}
